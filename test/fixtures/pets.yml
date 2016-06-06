@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nickname: MyString
+  image: MyString
+  description: MyText
+  birthday: 2016-06-06
+  status: 1
+  person_id: 
+  race_id: 
+
+two:
+  nickname: MyString
+  image: MyString
+  description: MyText
+  birthday: 2016-06-06
+  status: 1
+  person_id: 
+  race_id: 

@@ -1,0 +1,7 @@
+<h1>Pets#show</h1>
+<div class="mascota">
+	<h2><%= PetHelper.is_sick @pet %></h2>
+	<%= image_tag @pet.image , style: "width:200px" %>
+	<small><%= @pet.race.name %></small>
+	<p><%= @pet.description %></p>
+</div>
