@@ -1,7 +1,9 @@
 <h1>Pets#show</h1>
 <div class="mascota">
-	<h2><%= PetHelper.is_sick @pet %></h2>
+	<h2><%= @pet.nickname %></h2>
 	<%= image_tag @pet.image , style: "width:200px" %>
 	<small><%= @pet.race.name %></small>
 	<p><%= @pet.description %></p>
+	<!-- <a href="/pets/show">Ver detalle</a> -->
+	<%= link_to "Ver Detalle", pet_path(pet) %>
 </div>
